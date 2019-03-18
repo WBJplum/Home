@@ -25,8 +25,8 @@ export default {
     Alert
   },
   methods: {
-      login () {
-          if (this.password === '123456'){
+    login () {
+        if (this.password === '123456'){
               this.$router.push({ path: '/' })
             } else {
               AlertModule.show({
