@@ -14,7 +14,7 @@ Vue.use(AjaxPlugin)
 const routes = [{
   path: '/',
   component: Home
-}, { path: '/',
+}, { path: '/login',
   component: login}
 ]
 

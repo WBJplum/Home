@@ -73,7 +73,7 @@ export default {
   },
    created () {
     let _this = this
-     this.$http.post('https://api.apiopen.top/getJoke').then(({data}) => {
+     this.$http.get('https://api.apiopen.top/getJoke').then(({data}) => {
       console.log(data)
       var new_data = data.result.map((item, index) => ({
         src: item.header,
